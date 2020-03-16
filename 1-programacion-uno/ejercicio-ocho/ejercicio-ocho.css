@@ -1,0 +1,17 @@
+.button1 {
+    padding: 10px;
+    background-color: peachpuff;
+    border: 1px solid pink;
+    border-radius: 12px;
+}
+
+.button2 {
+    padding: 10px;
+    background-color: peachpuff;
+    border: 1px solid pink;
+    border-radius: 12px;
+}
+
+.hidden {
+opacity: 0;
+}

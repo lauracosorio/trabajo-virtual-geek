@@ -1,7 +1,9 @@
 const friendElement = document.querySelector('h3');
 
-const name = "Maria Clara Restrepo";
-const length = name.length;
+var name = "Maria Clara Restrepo";
+var withoutSpace = name.replace(/ /g,""); //Para quitar los espacios y el length no los cuente 
+var length = withoutSpace.length;
+
 
 friendElement.innerHTML = `
-<h3> El nombre de mi compañera es ${name} y está compuesto por ${name.length}  caracteres.` 
+<h3> El nombre de mi compañera es ${name} y está compuesto por ${length} caracteres.` 

@@ -1,9 +1,16 @@
-let añosVividos = 0;
+let añosVividos= document.querySelector(".form"); 
 let diasPorAño = 365;
 let horasPorDia = 24;
 
-añosVividos =parseInt(prompt("Ingrese su edad en números: "));
+// document.getElementById("form").onsubmit = function() {myFunction()};
 
 horasTotalVividas = añosVividos * diasPorAño * horasPorDia;
- 
-console.log("Durante sus " + añosVividos + " años usted ha vivido " + horasTotalVividas +" horas");
+
+console.log(`"Durante sus ${añosVividos} años usted ha vivido ${horasTotalVividas} horas"`);
+
+
+
+// function myFunction() {
+    
+//   alert("Durante sus " + añosVividos + " años usted ha vivido " + horasTotalVividas +" horas");
+// }
